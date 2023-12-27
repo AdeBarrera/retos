@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    position: relative;
+    min-height: 100%;
+    overflow: hidden;
+}
+body{
+    background-color: rgb(3, 49, 49);
+}
+
+main{
+    position:relative;
+    background: linear-gradient(rgb(0, 174, 255),rgb(166, 187, 197));
+    text-align: center;
+    padding-bottom: 2rem;
+    height: 72vh;
+}
+
+
+.header{
+    background-image: url('/img-reto-estilos/interior\ estadio.jfif');
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    background-size: cover;
+    color:white;
+    padding:7rem;
+    text-align: center;
+}
+
+.header>h1, p{
+    font-family: sans-serif;
+}
+.header>h1{
+    margin-bottom:1rem;
+}
+
+main>img{
+    width: 20rem;
+    margin:5rem 50% 1rem;
+    transform: translateX(-50%);   
+}
+main> h2, p,a{
+    font-family: sans-serif;
+    margin-bottom:1rem;
+}
+main> a{
+    text-decoration: none;
+    color:white;
+}
+#back-pp{
+    position:absolute;
+    left:1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: underline;
+    color:brown;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color:white;
+    text-align: center;
+}

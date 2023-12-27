@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(/img-pricipal/fondo-cuadricula-digital-abstracto-negro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    background-color: rgb(11, 11, 42);
+    padding:2rem 0 0.5rem;
+    border-bottom: solid 1px white;
+}
+
+.header__title{
+    width: max-content;
+    padding:0.5rem;
+    color:white;
+    margin-left: 1rem;
+    background-color: rgba(128, 128, 128,0.25);
+    border-radius: 10px;
+}
+
+.aside{
+    position: relative;
+    margin-top:3rem;
+    width:35rem;
+    height: 80vh;
+    color:white;
+    padding-left:2rem ;
+}
+.aside__h2{
+    margin: 1rem 0;
+    width: max-content;
+    letter-spacing: 0.2rem;
+    background-color: rgba(128, 128, 128,0.25);
+    padding:0.5rem;
+    border-radius: 10px;
+}
+.buttons{
+    /* border:solid white 1px; */
+    width: 15rem;
+    height: 16rem;
+    padding:0.5rem;
+}
+.aside__button{
+    display: block;
+    margin:4rem 0;
+    padding:0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    background-color: transparent;
+    color:white;
+    border:none;
+}
+.aside__button--active{
+    background-color: rgba(128, 128, 128,0.35); 
+    border-radius:5px;
+}
+
+.css-proyect{
+
+    /* esto cambiara a block con javascript */
+    display: block;
+
+    position: absolute;
+    left: 18rem;
+    top: 10.5rem;
+    background-color:rgba(128, 128, 128,0.35); ;
+    border-radius: 10px;
+    width: max-content;
+    padding:0 1rem;
+}
+.css-proyect__ul{
+    list-style: none;
+}
+.css-proyect__link{
+    margin:1.5rem 0;
+}
+.css-proyect__link>a{
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    color:white;
+}
+.css-proyect__link>a:hover{
+    text-decoration: underline;
+}

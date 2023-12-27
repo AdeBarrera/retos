@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    position:relative;
+    background-color: rgb(10, 195, 246);
+    padding:3rem;
+    text-align: center;
+}
+
+.header__title{
+    color:white;
+    font-size:2rem;
+    font-weight: 600;
+}
+.back-pp{
+    position: absolute;
+    left:1rem;
+    bottom:0.5rem;
+    color:white;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.back-pp:hover{
+    text-decoration: underline;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:5rem 0;
+}
+
+.tarjeta{
+    box-shadow:0px 0px 5px 1px rgb(188, 186, 186);
+    border-radius: 10px;
+    width: 35rem;
+    margin:0 4rem;
+    padding:2rem;
+    transition: transform 200ms ease;
+    
+}
+.tarjeta:hover{
+    transform:translateY(-0.5rem);
+}
+.tarjeta__img{
+    width: 100%;
+    margin-bottom:2.5rem;
+}
+.tarjeta__title{
+    margin-bottom: 2rem;
+}
+.tarjeta__parrafo{
+    margin-bottom: 1rem;
+}
+
+.tarjeta__autor{
+    padding:1.5rem 0.5rem;
+    border-radius: 10px;
+}
+.tarjeta__autor>span{
+    display: inline-block;
+    color:rgb(3, 98, 3);
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    opacity:0;
+    transition: opacity 200ms ease;
+}
+
+.tarjeta:hover{
+    background-color: rgb(236, 235, 235);
+}
+.tarjeta:hover h2{
+    color:rgb(233, 1, 1)
+}
+.tarjeta:hover .tarjeta__autor{
+    background-color: rgba(252, 204, 81,0.5);
+}
+.tarjeta:hover .tarjeta__autor>span{
+    opacity: 1;
+}
