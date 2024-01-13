@@ -43,7 +43,6 @@ body{
     border-radius: 10px;
 }
 .buttons{
-    /* border:solid white 1px; */
     width: 15rem;
     height: 16rem;
     padding:0.5rem;
@@ -59,16 +58,17 @@ body{
     color:white;
     border:none;
 }
+.aside__button:hover{
+    text-decoration: underline;
+}
 .aside__button--active{
     background-color: rgba(128, 128, 128,0.35); 
     border-radius:5px;
 }
 
+/* esto cambiara a block con javascript */
 .css-proyect{
-
-    /* esto cambiara a block con javascript */
-    display: block;
-
+    display: none;
     position: absolute;
     left: 18rem;
     top: 10.5rem;
@@ -77,6 +77,10 @@ body{
     width: max-content;
     padding:0 1rem;
 }
+.visible{
+    display: block;
+}
+
 .css-proyect__ul{
     list-style: none;
 }
